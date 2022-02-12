@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        table
+        {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th
+        {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot
+        {
+            background-color: lightgray;
+            color: white;
+        }
+
+        caption
+        {
+            size: 1.5 em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(241, 239, 239);
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>Polução de algumas Unidades Federativas</caption>
+        <thead> 
+            <tr>
+                <th scope="col">Alguns Estados Brasileiros</th>
+                <th scope="col" style="width: 50px">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr> 
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr> 
+                <td>Rio de Janeiro</td>
+                <td>17.26.943</td>
+            </tr>
+            <tr> 
+                <td>Bahia</td>
+                <td>14.873.064</td>
+            </tr>
+            <tr> 
+                <td>Paraná</td>
+                <td>11.433.957</td>
+            </tr>
+            <tr> 
+                <td>Rio Grande do Sul</td>
+                <td>11.377.239</td>
+            </tr>
+            <tr> 
+                <td>Pernambuco</td>
+                <td>9.557.071</td>
+            </tr>
+            <tr> 
+                <td>Ceará</td>
+                <td>9.132.078</td>
+            </tr>
+        </tbody>
+        <tfoot scope="row">
+            <th>Total de Habitantes</th>
+            <td>77.542.200</td>
+        </tfoot>
+    </table>
+</body>
+</html>
