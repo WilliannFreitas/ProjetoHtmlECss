@@ -9,13 +9,13 @@
         body
         {
             font-family: Arial, Helvetica, sans-serif;
-            
         }
 
         table
         {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th
@@ -26,8 +26,15 @@
 
         thead, tfoot
         {
-            background-color: lightgray;
+            background-color: rgb(94, 94, 94);
             color: white;
+        }
+
+        thead > tr > th 
+        {
+            position: sticky;
+            top : -1px;
+            background-color: rgb(94, 94, 94);
         }
 
         caption
@@ -36,7 +43,26 @@
             font-weight: bold;
             padding: 10px;
             background-color: rgb(241, 239, 239);
-            color: gray;
+            color: rgb(51, 51, 51);
+        }
+
+        tbody > tr:nth-child(odd)
+        {
+            background-color: lightyellow;
+        }
+        tbody > tr:nth-child(even)
+        {
+            background-color: rgb(252, 252, 113) ;
+        }
+
+        /* tbody > tr:nth-child(2n)
+        {
+            background-color: lightgray;
+        } */
+
+        td.num
+        {
+            text-align: left;
         }
     </style>
 </head>
@@ -48,10 +74,114 @@
         <thead> 
             <tr>
                 <th scope="col">Alguns Estados Brasileiros</th>
-                <th scope="col" style="width: 50px">População</th>
+                <th scope="col" style="width: 150px">População</th>
             </tr>
         </thead>
         <tbody>
+            <tr> 
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr> 
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr> 
+                <td>Rio de Janeiro</td>
+                <td>17.26.943</td>
+            </tr>
+            <tr> 
+                <td>Bahia</td>
+                <td>14.873.064</td>
+            </tr>
+            <tr> 
+                <td>Paraná</td>
+                <td>11.433.957</td>
+            </tr>
+            <tr> 
+                <td>Rio Grande do Sul</td>
+                <td>11.377.239</td>
+            </tr>
+            <tr> 
+                <td>Pernambuco</td>
+                <td>9.557.071</td>
+            </tr>
+            <tr> 
+                <td>Ceará</td>
+                <td>9.132.078</td>
+            </tr>
+
+
+
+            <tr> 
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr> 
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr> 
+                <td>Rio de Janeiro</td>
+                <td>17.26.943</td>
+            </tr>
+            <tr> 
+                <td>Bahia</td>
+                <td>14.873.064</td>
+            </tr>
+            <tr> 
+                <td>Paraná</td>
+                <td>11.433.957</td>
+            </tr>
+            <tr> 
+                <td>Rio Grande do Sul</td>
+                <td>11.377.239</td>
+            </tr>
+            <tr> 
+                <td>Pernambuco</td>
+                <td>9.557.071</td>
+            </tr>
+            <tr> 
+                <td>Ceará</td>
+                <td>9.132.078</td>
+            </tr>
+
+
+
+            <tr> 
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr> 
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr> 
+                <td>Rio de Janeiro</td>
+                <td>17.26.943</td>
+            </tr>
+            <tr> 
+                <td>Bahia</td>
+                <td>14.873.064</td>
+            </tr>
+            <tr> 
+                <td>Paraná</td>
+                <td>11.433.957</td>
+            </tr>
+            <tr> 
+                <td>Rio Grande do Sul</td>
+                <td>11.377.239</td>
+            </tr>
+            <tr> 
+                <td>Pernambuco</td>
+                <td>9.557.071</td>
+            </tr>
+            <tr> 
+                <td>Ceará</td>
+                <td>9.132.078</td>
+            </tr>
+
+
             <tr> 
                 <td>São Paulo</td>
                 <td>45.919.049</td>
@@ -90,5 +220,40 @@
             <td>77.542.200</td>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, veniam! Esse perferendis magnam nulla officiis laboriosam voluptatum ipsa, minus enim, aspernatur neque culpa commodi architecto, laudantium recusandae facilis! Dolor, ad.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus, dolor neque in hic accusamus voluptates, tenetur consequuntur cupiditate nam quia accusantium consequatur ratione, reiciendis similique reprehenderit incidunt natus nesciunt!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae alias neque laboriosam, in inventore explicabo tenetur similique doloribus perspiciatis exercitationem amet temporibus nemo quis animi iste voluptatum nulla facilis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod reprehenderit deserunt vero qui consequuntur assumenda sunt aliquam eveniet esse blanditiis, ab molestias odio unde. Voluptas repellat perspiciatis facilis quae.
+    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, veniam! Esse perferendis magnam nulla officiis laboriosam voluptatum ipsa, minus enim, aspernatur neque culpa commodi architecto, laudantium recusandae facilis! Dolor, ad.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus, dolor neque in hic accusamus voluptates, tenetur consequuntur cupiditate nam quia accusantium consequatur ratione, reiciendis similique reprehenderit incidunt natus nesciunt!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae alias neque laboriosam, in inventore explicabo tenetur similique doloribus perspiciatis exercitationem amet temporibus nemo quis animi iste voluptatum nulla facilis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod reprehenderit deserunt vero qui consequuntur assumenda sunt aliquam eveniet esse blanditiis, ab molestias odio unde. Voluptas repellat perspiciatis facilis quae.
+    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, veniam! Esse perferendis magnam nulla officiis laboriosam voluptatum ipsa, minus enim, aspernatur neque culpa commodi architecto, laudantium recusandae facilis! Dolor, ad.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus, dolor neque in hic accusamus voluptates, tenetur consequuntur cupiditate nam quia accusantium consequatur ratione, reiciendis similique reprehenderit incidunt natus nesciunt!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae alias neque laboriosam, in inventore explicabo tenetur similique doloribus perspiciatis exercitationem amet temporibus nemo quis animi iste voluptatum nulla facilis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod reprehenderit deserunt vero qui consequuntur assumenda sunt aliquam eveniet esse blanditiis, ab molestias odio unde. Voluptas repellat perspiciatis facilis quae.
+    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, veniam! Esse perferendis magnam nulla officiis laboriosam voluptatum ipsa, minus enim, aspernatur neque culpa commodi architecto, laudantium recusandae facilis! Dolor, ad.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus, dolor neque in hic accusamus voluptates, tenetur consequuntur cupiditate nam quia accusantium consequatur ratione, reiciendis similique reprehenderit incidunt natus nesciunt!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae alias neque laboriosam, in inventore explicabo tenetur similique doloribus perspiciatis exercitationem amet temporibus nemo quis animi iste voluptatum nulla facilis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod reprehenderit deserunt vero qui consequuntur assumenda sunt aliquam eveniet esse blanditiis, ab molestias odio unde. Voluptas repellat perspiciatis facilis quae.
+    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, veniam! Esse perferendis magnam nulla officiis laboriosam voluptatum ipsa, minus enim, aspernatur neque culpa commodi architecto, laudantium recusandae facilis! Dolor, ad.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus, dolor neque in hic accusamus voluptates, tenetur consequuntur cupiditate nam quia accusantium consequatur ratione, reiciendis similique reprehenderit incidunt natus nesciunt!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae alias neque laboriosam, in inventore explicabo tenetur similique doloribus perspiciatis exercitationem amet temporibus nemo quis animi iste voluptatum nulla facilis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod reprehenderit deserunt vero qui consequuntur assumenda sunt aliquam eveniet esse blanditiis, ab molestias odio unde. Voluptas repellat perspiciatis facilis quae.
+    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, veniam! Esse perferendis magnam nulla officiis laboriosam voluptatum ipsa, minus enim, aspernatur neque culpa commodi architecto, laudantium recusandae facilis! Dolor, ad.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus, dolor neque in hic accusamus voluptates, tenetur consequuntur cupiditate nam quia accusantium consequatur ratione, reiciendis similique reprehenderit incidunt natus nesciunt!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae alias neque laboriosam, in inventore explicabo tenetur similique doloribus perspiciatis exercitationem amet temporibus nemo quis animi iste voluptatum nulla facilis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod reprehenderit deserunt vero qui consequuntur assumenda sunt aliquam eveniet esse blanditiis, ab molestias odio unde. Voluptas repellat perspiciatis facilis quae.
+    </p>
 </body>
 </html>
